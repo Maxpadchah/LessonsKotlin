@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_text_size">24sp</dimen>
+    <dimen name="logo_layout_marginHorizontal">10dp</dimen>
+    <dimen name="logo_layout_marginTop">30dp</dimen>
+    <dimen name="user_input_field_marginHorizontal">25dp</dimen>
+    <dimen name="user_input_field_marginTop">100dp</dimen>
+    <dimen name="user_input_field_text_size">18sp</dimen>
+    <dimen name="user_button_marginHorizontal">80dp</dimen>
+    <dimen name="user_button_marginTop">28dp</dimen>
+    <dimen name="field_information_marginHorizontal">20dp</dimen>
+    <dimen name="field_information_marginTop">80dp</dimen>
+    <dimen name="field_information_text_size">24sp</dimen>
+</resources>

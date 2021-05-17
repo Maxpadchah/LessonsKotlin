@@ -2,6 +2,8 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
@@ -17,16 +19,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initializationField()
-        user_button.setOnClickListener {
-            Toast.makeText(applicationContext, user_input_field.getText().toString(), Toast.LENGTH_LONG).show()
-            field_information.setText(user_input_field.getText().toString())
-        }
+        clickButtons(user_button)
     }
+
     fun initializationField() {
         logo = findViewById(R.id.logo)
         user_input_field = findViewById(R.id.user_input_field)
         user_button = findViewById(R.id.user_button)
         field_information = findViewById(R.id.field_information)
+    }
+    fun clickButtons(buttons : Button){
+        buttons.setOnClickListener {
+            Toast.makeText(this, user_input_field.getText().toString(), Toast.LENGTH_SHORT).show()
+            field_information.setText(user_input_field.getText().toString())
+        }
     }
 
 }

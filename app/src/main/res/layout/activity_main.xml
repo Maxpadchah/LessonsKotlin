@@ -10,32 +10,32 @@
         android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="@dimen/logo_layout_marginHorizontal"
+        android:layout_marginTop="@dimen/logo_layout_marginTop"
         android:text="@string/logo"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="24sp" />
+        android:textSize="@dimen/logo_text_size" />
 
     <EditText
         android:id="@+id/user_input_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/logo"
-        android:layout_marginHorizontal="25dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="@dimen/user_input_field_marginHorizontal"
+        android:layout_marginTop="@dimen/user_input_field_marginTop"
         android:hint="@string/user_input_field"
         android:textColor="@color/white"
         android:textColorHint="@color/user_input_field"
-        android:textSize="18sp" />
+        android:textSize="@dimen/user_input_field_text_size" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/user_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/user_input_field"
-        android:layout_marginHorizontal="80dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginHorizontal="@dimen/user_button_marginHorizontal"
+        android:layout_marginTop="@dimen/user_button_marginTop"
         android:backgroundTint="@color/user_button"
         android:text="@string/user_button" />
 
@@ -44,10 +44,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/user_button"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="@dimen/field_information_marginHorizontal"
+        android:layout_marginTop="@dimen/field_information_marginTop"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="24sp" />
+        android:textSize="@dimen/field_information_text_size" />
 
 </RelativeLayout>

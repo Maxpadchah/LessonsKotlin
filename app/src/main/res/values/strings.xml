@@ -3,6 +3,4 @@
     <string name="logo">Узнайте погоду в вашем городе</string>
     <string name="user_input_field">Введите название города</string>
     <string name="user_button">Узнайте погоду</string>
-
-
 </resources>
